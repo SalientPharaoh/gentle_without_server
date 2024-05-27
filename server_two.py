@@ -10,7 +10,6 @@ from gentle.util.paths import get_resource, get_datadir
 from gentle.util.cyst import Insist
 
 
-
 class Transcriber:
     def __init__(self, data_dir, nthreads=4, ntranscriptionthreads=2):
         self.data_dir = data_dir
